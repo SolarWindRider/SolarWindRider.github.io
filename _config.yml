@@ -5,7 +5,7 @@ title: BLOG
 description: >- # this means to ignore newlines until "baseurl:"
   Live A Colourful Life.
 baseurl: "" # the subpath of the site
-url: "https://solarwindrider.gitee.io" # the base hostname & protocol for the site
+url: "https://solarwindrider.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
