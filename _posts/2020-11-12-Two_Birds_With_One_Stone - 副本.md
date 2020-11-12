@@ -61,4 +61,4 @@ Not important enough to check out all of them for me.
 
 ## III. The Hierarchical Segment Index
 
-![HS-tree Index](/Two_Birds_With_One_Stone/HS-tree.png)
+![HS-tree Index](/_posts/Two_Birds_With_One_Stone/HS-tree.png)
