@@ -8,18 +8,18 @@ ICDE Conference 2015
 2. There are many methods to quantify the similarity such as Jaccar, Cosine and edit distance. This work focus on **edit distance** only.
 
 3. Two kinds of string similarity search:  
-  **(1) threshold_based**  
-  It identifies all the strings from dataset whose edit distance is within the threshold.  
-  **(2) top-k**  
-  It find k strings from dataset that have smallest edit distance to the query.  
+    **(1) threshold_based**  
+    It identifies all the strings from dataset whose edit distance is within the threshold.  
+    **(2) top-k**  
+    It find k strings from dataset that have smallest edit distance to the query.  
 
 4. Problem to address:  
-  Existing methods are not efficient enough.
+    Existing methods are not efficient enough.
 
 5. **Four main contributions:**  
-  (1) Propose HS-tree to improve top-k algorithm and threshold-based algorithm.  
-  (2) Develop HS-Search and HS-topk based on HS-tree to improve threshold-base algorithm and top-k algorithm.  
-  (3) Develop batch-based and greedy-match-based pruning strategies to prune dissimilar strings.  
+    (1) Propose HS-tree to improve top-k algorithm and threshold-based algorithm.  
+    (2) Develop HS-Search and HS-topk based on HS-tree to improve threshold-base algorithm and top-k algorithm.  
+    (3) Develop batch-based and greedy-match-based pruning strategies to prune dissimilar strings.  
 
   (4) Experiments' result shows that their method is better than the state-of-the-art.
 
@@ -61,4 +61,4 @@ Not important enough to check out all of them for me.
 
 ## III. The Hierarchical Segment Index
 
-![HS-tree Index](HS-tree.png)
+![HS-tree Index](/Two_Birds_With_One_Stone/HS-tree.png)
