@@ -33,7 +33,7 @@ Given a string set S, a query q, and a threshold τ, threshold-based similarity 
 
 ***Definition 2 (top-k)***:
 
-Given a string set S, a query q, and an integer k, top-k similarity search finds a subset R ⊆ S, such that |R| = k and for any r ∈ R and s ∈ S − R, ED(r, q) ≤ ED(s, q).
+Given a string set S, a query q, and an integer k, top-k similarity search finds a subset R ⊆ S, such that \|R\| = k and for any r ∈ R and s ∈ S − R, ED(r, q) ≤ ED(s, q).
 
 ### B. Related Works
 
